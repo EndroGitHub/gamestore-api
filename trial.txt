@@ -1,0 +1,7 @@
+"title": "Game7",
+"description": "",
+"image": "game7.jpg",
+"price": 100,
+"offerPercentage": 0,
+"category": ["Action"],
+"dateAddedMil": 1718130600000
