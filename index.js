@@ -8,11 +8,9 @@ app.use(express.json());
 app.use(cors());
 app.listen(5000);
 
-let myInterval = setInterval(() => {
-  console.log("calling....");
-}, 840000);
-
-myInterval;
+//cron job
+const job = require("./cron");
+job.start();
 
 //Models
 const User = require("./database/User");
