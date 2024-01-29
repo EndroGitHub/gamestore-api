@@ -8,6 +8,12 @@ app.use(express.json());
 app.use(cors());
 app.listen(5000);
 
+let myInterval = setInterval(() => {
+  console.log("calling....");
+}, 840000);
+
+myInterval;
+
 //Models
 const User = require("./database/User");
 const Game = require("./database/Game");
