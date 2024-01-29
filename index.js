@@ -8,9 +8,9 @@ app.use(express.json());
 app.use(cors());
 app.listen(5000);
 
-//cron job
-const job = require("./cron");
-job.start();
+//-----------cron job-----------
+// const job = require("./cron");
+// job.start();
 
 //Models
 const User = require("./database/User");
